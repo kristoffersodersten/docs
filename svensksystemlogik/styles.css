@@ -786,36 +786,6 @@ h2 {
   max-width: 780px;
 }
 
-.contact-list {
-  display: grid;
-  gap: 10px;
-  margin-top: 28px;
-  font-style: normal;
-}
-
-.contact-list a {
-  display: grid;
-  gap: 3px;
-  overflow-wrap: anywhere;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  color: rgba(247, 251, 255, 0.72);
-  font-size: clamp(0.98rem, 1.4vw, 1.1rem);
-  font-weight: 650;
-  padding-top: 12px;
-}
-
-.contact-list a:hover {
-  color: rgba(247, 251, 255, 0.92);
-}
-
-.contact-list span {
-  color: rgba(247, 251, 255, 0.42);
-  font-size: 0.78rem;
-  font-weight: 780;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .contact-layout {
   display: grid;
   gap: 34px;
