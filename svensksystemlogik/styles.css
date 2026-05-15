@@ -1188,16 +1188,24 @@ h2 {
 
 @media (max-width: 560px) {
   .footer {
-    grid-template-columns: 34px 1fr;
+    grid-template-columns: 34px minmax(0, 1fr);
+    align-items: start;
+    row-gap: 8px;
   }
 
   .footer-company {
+    position: static;
+    grid-column: 2;
     justify-self: start;
+    text-align: left;
+    transform: none;
+    white-space: normal;
   }
 
   .footer-org {
     grid-column: 2;
     justify-self: start;
+    overflow-wrap: anywhere;
   }
 }
 
