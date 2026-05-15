@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title>Svensk Systemlogik AB ikon</title>
+  <defs>
+    <linearGradient id="g" x1="18" x2="78" y1="12" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#59D8F4"/>
+      <stop offset="0.52" stop-color="#2268D8"/>
+      <stop offset="1" stop-color="#0B1730"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="16" fill="#07111F"/>
+  <path d="M23 48c0-13.8 11.2-25 25-25h21v10H48c-8.3 0-15 6.7-15 15s6.7 15 15 15h6v-9H44V44h20v29H48c-13.8 0-25-11.2-25-25Z" fill="url(#g)"/>
+  <path d="M70 36v31h-8V36h8Z" fill="#F8FBFF"/>
+  <path d="M22 74h52" stroke="#59D8F4" stroke-linecap="round" stroke-width="3" opacity=".72"/>
+  <circle cx="74" cy="74" r="4" fill="#59D8F4"/>
+</svg>

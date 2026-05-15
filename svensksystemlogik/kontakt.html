@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt | Svensk Systemlogik AB</title>
+    <meta
+      name="description"
+      content="Kontakta Svensk Systemlogik AB med behovsbeskrivning, organisationsnummer och kontaktuppgifter."
+    />
+    <meta name="theme-color" content="#081323" />
+    <link rel="canonical" href="https://svensksystemlogik.se/kontakt.html" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Hoppa till innehåll</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Svensk Systemlogik AB">
+        <img class="brand-mark" src="brand-icon.svg" alt="" width="42" height="42" />
+        <span class="brand-text">
+          <strong>Svensk Systemlogik AB</strong>
+          <small>AI-driven systemutveckling</small>
+        </span>
+      </a>
+<nav class="nav desktop-nav" aria-label="Huvudnavigation">
+        <a href="index.html">Hem</a>
+        <a href="tjanster.html">Tjänster</a>
+        <a href="prismodell.html">Prismodell</a>
+        <a href="arbetssatt.html">Arbetssätt</a>
+        <a href="om.html">Om</a>
+        <a aria-current="page" href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class="menu-button" type="button" popovertarget="mobile-menu" aria-label="Öppna meny">
+        <span aria-hidden="true"></span>
+        Meny
+      </button>
+      <nav class="menu-popover" id="mobile-menu" popover aria-label="Mobilnavigation">
+        <a href="index.html">Hem</a>
+        <a href="tjanster.html">Tjänster</a>
+        <a href="prismodell.html">Prismodell</a>
+        <a href="arbetssatt.html">Arbetssätt</a>
+        <a href="om.html">Om</a>
+        <a aria-current="page" href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <h1>Kontakt</h1>
+        <p>
+          Beskriv behovet, verksamheten och vem som bör kontaktas. Formuläret är
+          strukturerat för seriösa förfrågningar.
+        </p>
+      </section>
+
+      <section class="section contact-layout">
+        <div class="text-block contact-aside">
+          <h2>Starta rätt dialog.</h2>
+          <p>
+            Ett bra första meddelande beskriver nuläge, friktion, målbild och
+            vem som äger frågan hos uppdragsgivaren.
+          </p>
+          <p>
+            Formuläret visar vilka uppgifter som behövs. När en säker
+            mottagning är vald kopplas det till en backend eller formtjänst.
+          </p>
+          <address class="contact-list">
+            <a href="mailto:info@svensksystemlogik.se"><span>E-post</span>info@svensksystemlogik.se</a>
+            <a href="tel:+46701739894"><span>Telefon</span>070 173 98 94</a>
+            <a href="https://svensksystemlogik.se"><span>Webb</span>svensksystemlogik.se</a>
+          </address>
+        </div>
+
+        <form class="contact-form" action="mailto:info@svensksystemlogik.se" method="post" enctype="text/plain">
+          <label class="visually-hidden" aria-hidden="true">
+            <span>Website</span>
+            <input name="website" type="text" tabindex="-1" autocomplete="off" />
+          </label>
+
+          <div class="form-grid">
+            <label>
+              <span>Organisation</span>
+              <input name="organisation" type="text" autocomplete="organization" required />
+            </label>
+
+            <label>
+              <span>Organisationsnummer</span>
+              <input
+                name="organisationsnummer"
+                type="text"
+                inputmode="numeric"
+                autocomplete="off"
+                pattern="[0-9]{6}-?[0-9]{4}"
+                placeholder="556851-6826"
+                required
+              />
+            </label>
+
+            <label>
+              <span>Kontaktperson</span>
+              <input name="kontaktperson" type="text" autocomplete="name" required />
+            </label>
+
+            <label>
+              <span>E-post</span>
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+
+            <label>
+              <span>Telefon</span>
+              <input name="telefon" type="tel" autocomplete="tel" />
+            </label>
+
+            <label>
+              <span>Roll eller mandat</span>
+              <input name="roll" type="text" placeholder="Ex. VD, operations, IT, ägare" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Behovsbeskrivning</span>
+            <textarea
+              name="behovsbeskrivning"
+              rows="7"
+              placeholder="Beskriv problemet, nuläget, affärseffekten och vilka flöden eller system som berörs."
+              required
+            ></textarea>
+          </label>
+
+          <label>
+            <span>Önskad riktning</span>
+            <select name="onskad-riktning" required>
+              <option value="">Välj ett alternativ</option>
+              <option>Strategisk analys</option>
+              <option>Systemarkitektur</option>
+              <option>Integration och automatisering</option>
+              <option>AI-stöd i operativa flöden</option>
+              <option>Osäker, behöver kvalificering</option>
+            </select>
+          </label>
+
+          <label class="checkbox-label">
+            <input name="bekraftelse" type="checkbox" required />
+            <span>Jag bekräftar att känsliga dokument inte skickas via formuläret innan säker mottagning är överenskommen.</span>
+          </label>
+
+          <button class="button primary" type="submit">Skicka förfrågan</button>
+          <p class="form-note">
+            Första versionen kan använda e-post som fallback. När
+            formulärmottagningen är aktiverad skickas förfrågan till
+            info@svensksystemlogik.se och registreras i Google Sheet.
+          </p>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="section">
+        <div class="upload-note">
+          <div>
+            <h2>Säker dokumentdelning</h2>
+            <p>
+              Drag-and-drop för dokument bör inte byggas direkt i en statisk
+              hemsida. För känsliga filer behövs en säker uppladdningsportal med
+              behörighet, krypterad lagring, loggning och skydd mot skadliga filer.
+            </p>
+          </div>
+          <p>
+            Rekommendationen är att aktivera detta som separat funktion när
+            teknisk lösning och personuppgiftshantering är bestämda.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-icon" href="index.html" aria-label="Svensk Systemlogik AB">
+        <img src="brand-icon.svg" alt="" width="34" height="34" />
+      </a>
+      <span class="footer-company">© Svensk Systemlogik AB</span>
+      <span class="footer-org">Org.nr 556851-6826</span>
+    </footer>
+    <script src="form-config.js"></script>
+    <script src="form-handler.js" defer></script>
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js" defer></script>
+    <script src="cursor.js" defer></script>
+  </body>
+</html>

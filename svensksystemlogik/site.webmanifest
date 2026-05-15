@@ -1,0 +1,16 @@
+{
+  "name": "Svensk Systemlogik AB",
+  "short_name": "Systemlogik",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#07111f",
+  "theme_color": "#081323",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

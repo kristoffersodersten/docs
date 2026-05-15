@@ -1,0 +1,1 @@
+window.SSL_ANALYTICS_ENDPOINT = "";
